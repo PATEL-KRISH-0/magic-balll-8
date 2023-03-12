@@ -1,0 +1,15 @@
+hey,
+
+	This is a block of HTML and CSS code that displays a "Magic Ball" game. It allows the user to ask a yes or no question and receive a random answer from a predefined array. The code is written in HTML and CSS for the styling, and JavaScript for the interactivity of the game.
+
+	The JavaScript code uses event listeners to detect when the user clicks the "Ask Me Anything" button. When clicked, a prompt is displayed for the user to enter a question. If the user enters nothing, an alert is displayed to prompt the user to enter a question. If a question is entered, the ball is animated using CSS keyframes, and after a short delay, a random response is displayed to the user.
+
+	The code could be used to learn about HTML, CSS, and JavaScript, and how to integrate them together to create a simple game. It demonstrates the use of CSS animations, media queries, and Google Fonts. It also shows how to use JavaScript to manipulate the DOM, handle user input, and generate random numbers.
+
+	This magic-ball-8 is an excellent project for beginners to practice using HTML, CSS, and JavaScript to create interactive web applications. It provides an opportunity to practice essential web development skills, such as handling onclick events, manipulating the Document Object Model (DOM), and improving overall JavaScript proficiency. With this project, beginners can gain valuable experience and hone their skills to create more complex and sophisticated web applications.
+
+
+
+
+
+	

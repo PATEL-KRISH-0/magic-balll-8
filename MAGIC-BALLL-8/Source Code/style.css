@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+
+
+
+:root {
+    --ballcolor1: black;
+    --ballcolor2: white;
+
+    --b8-Color: yellow;
+    --black: black;
+    --body-Bolor: #6a81ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Nunito', sans-serif;
+    transition: all 0.5s;
+    white-space: nowrap;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--body-Bolor);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.heding {
+    color: var(--b8-Color);
+    font-family: 'Barlow', sans-serif;
+    font-size: 4rem;
+}
+
+.heding-main {
+    color: var(--black);
+}
+
+.heding-subtext {
+    display: flex;
+    font-family: 'Carme', sans-serif;
+    font-size: 3rem;
+    word-wrap: break-word;
+    padding: 1rem 3rem;
+    text-align: justify;
+    color: var(--ballcolor2);
+}
+
+.b-Black {
+    display: flex;
+    margin-top: 3rem;
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    background-color: var(--ballcolor1);
+    align-items: center;
+    justify-content: center;
+}
+
+.b-wite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27rem;
+    height: 27rem;
+    border-radius: 50%;
+    background-color: var(--ballcolor2);
+}
+
+.b-8 {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 21rem;
+    font-weight: bolder;
+    animation-iteration-count: 5;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translateX(10px);
+    }
+}
+
+.btn {
+    padding: 2rem 7rem;
+    background-color: var(--ballcolor2);
+    color: var(--black);
+    font-size: 2rem;
+    margin: 3rem;
+    font-weight: 900;
+}
+
+.author {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+/* MEDIA QUEREYS  */
+
+@media screen and (max-width: 636px) {
+    * {
+        white-space: normal;
+    }
+
+    html {
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    html {
+        font-size: 30%;
+    }
+
+}
