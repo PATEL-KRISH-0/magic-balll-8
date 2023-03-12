@@ -7,9 +7,3 @@ hey,
 	The code could be used to learn about HTML, CSS, and JavaScript, and how to integrate them together to create a simple game. It demonstrates the use of CSS animations, media queries, and Google Fonts. It also shows how to use JavaScript to manipulate the DOM, handle user input, and generate random numbers.
 
 	This magic-ball-8 is an excellent project for beginners to practice using HTML, CSS, and JavaScript to create interactive web applications. It provides an opportunity to practice essential web development skills, such as handling onclick events, manipulating the Document Object Model (DOM), and improving overall JavaScript proficiency. With this project, beginners can gain valuable experience and hone their skills to create more complex and sophisticated web applications.
-
-
-
-
-
-	
